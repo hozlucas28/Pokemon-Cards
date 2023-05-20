@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+	@apply grid
+        min-h-screen
+        content-center
+        justify-center
+        bg-neutral-900;
+}

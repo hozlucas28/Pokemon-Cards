@@ -1,0 +1,33 @@
+.container {
+	@apply rounded-md
+        bg-sky-400
+        p-6
+        text-neutral-50
+        shadow-2xl
+        transition
+        duration-200
+        ease-linear
+        hover:scale-110
+        hover:bg-neutral-50
+        hover:text-sky-400
+        hover:shadow-sky-400/50;
+}
+
+.container * {
+	@apply drop-shadow-2xl;
+}
+
+.title {
+	@apply select-none
+        text-3xl
+        font-bold
+        capitalize;
+}
+
+.subTitle {
+	@apply font-semibold;
+}
+
+.subTitle > a {
+	@apply hover:underline;
+}

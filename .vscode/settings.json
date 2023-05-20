@@ -1,0 +1,20 @@
+{
+	"files.autoSaveDelay": 1000,
+	"spellright.language": ["en", "es"],
+	"reactSnippets.settings.importReactOnTop": false,
+	"markdown-preview-github-styles.colorTheme": "dark",
+	"prettier.jsxSingleQuote": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.vueIndentScriptAndStyle": true,
+	"prettier.useTabs": true,
+	"spellright.configurationScope": "user",
+	"spellright.documentTypes": ["latex", "plaintext", "html", "django-html", "java", "javascript", "shellscript", "markdown"],
+	"spellright.ignoreFiles": ["**/.gitignore", "**/.spellignore", "*.excalidraw"],
+	"spellright.notificationClass": "information",
+	"spellright.parserByClass": {
+		"django-html": {
+			"parser": "markdown"
+		}
+	}
+}
