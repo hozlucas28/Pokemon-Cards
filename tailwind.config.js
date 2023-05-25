@@ -2,7 +2,17 @@
 export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
-		extend: {},
+		extend: {
+			animation: {
+				fullRotate: 'fullRotate 64s linear infinite',
+			},
+
+			keyframes: {
+				fullRotate: {
+					'100%': { transform: 'rotate(360deg)' },
+				},
+			},
+		},
 	},
 	plugins: [],
 }
