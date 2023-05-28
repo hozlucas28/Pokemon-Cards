@@ -1,0 +1,24 @@
+.container {
+	@apply m-8
+        flex
+        flex-wrap
+        justify-center
+        gap-8
+        text-center;
+}
+
+.noSavedCards {
+	@apply z-20;
+}
+
+.noSavedCards > h3 {
+	@apply text-xl
+        font-medium
+        normal-case;
+}
+
+.noSavedCards > div {
+	@apply mx-auto
+        my-5
+        w-3/4;
+}

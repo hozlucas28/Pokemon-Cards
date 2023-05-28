@@ -1,0 +1,25 @@
+.navBar {
+	@apply z-20
+        flex
+        justify-center;
+}
+
+.navBarLink {
+	@apply z-20
+        block
+        w-64
+        rounded-full
+        bg-tertiary-background
+        px-5
+        py-2
+        text-center
+        font-medium
+        capitalize
+        transition-all
+        duration-300
+        ease-out
+        hover:bg-tertiary-background-emphasis
+        hover:ring-2
+        hover:ring-tertiary-background
+        hover:ring-offset-2;
+}
