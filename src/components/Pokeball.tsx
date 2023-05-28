@@ -10,6 +10,7 @@ const Pokeball = () => {
 			<img
 				src={pokeballImg}
 				alt={TEXTS.pokeball.alt}
+				title={TEXTS.pokeball.title}
 			/>
 		</div>
 	)

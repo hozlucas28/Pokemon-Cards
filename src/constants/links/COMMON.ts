@@ -1,4 +1,11 @@
 export const COMMON = {
-	author: 'https://github.com/hozlucas28',
-	repository: 'https://github.com/hozlucas28/Pokemon-Cards',
+	author: {
+		href: 'https://github.com/hozlucas28',
+		title: 'hozlucas28 GitHub Profile',
+	},
+
+	repository: {
+		href: 'https://github.com/hozlucas28/Pokemon-Cards',
+		title: 'GitHub Repository',
+	},
 }

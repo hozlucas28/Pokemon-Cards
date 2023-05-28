@@ -1,4 +1,11 @@
 export const ROUTES = {
-	home: '/',
-	favorites: '/favorites',
+	home: {
+		route: '/',
+		title: 'Home',
+	},
+
+	favorites: {
+		route: '/favorites',
+		title: 'Favorites',
+	},
 }

@@ -47,7 +47,8 @@ const Home = () => {
 						navBarStyle={styles.navBar}
 						links={[
 							{
-								to: ROUTES.favorites,
+								to: ROUTES.favorites.route,
+								title: ROUTES.favorites.title,
 								style: styles.navBarLink,
 								text: TEXTS.navBar.savedCards,
 							},

@@ -7,11 +7,11 @@ import { ROUTES } from '../constants/ROUTES'
 
 export const appRoutes = createBrowserRouter([
 	{
-		path: ROUTES.home,
+		path: ROUTES.home.route,
 		element: <Home />,
 	},
 	{
-		path: ROUTES.favorites,
+		path: ROUTES.favorites.route,
 		element: <Favorites />,
 	},
 ])

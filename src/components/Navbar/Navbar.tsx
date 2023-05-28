@@ -15,6 +15,7 @@ const Navbar: React.FC<Props> = ({ navBarStyle, links }) => {
 					key={link.to}
 					className={link.style}
 					to={link.to}
+					title={link.title}
 				>
 					{link.text}
 				</Link>

@@ -17,7 +17,8 @@ const Favorites = () => {
 				navBarStyle={styles.navBar}
 				links={[
 					{
-						to: ROUTES.home,
+						to: ROUTES.home.route,
+						title: ROUTES.home.title,
 						style: styles.navBarLink,
 						text: TEXTS.navBar.home,
 					},

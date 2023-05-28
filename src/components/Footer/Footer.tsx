@@ -12,7 +12,8 @@ const Footer = () => {
 			<div>
 				<a
 					className={styles.anchor}
-					href={LINKS.repository}
+					href={LINKS.repository.href}
+					title={LINKS.repository.title}
 					target='_blank'
 					rel='noreferrer'
 				>

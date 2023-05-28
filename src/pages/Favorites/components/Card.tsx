@@ -48,6 +48,7 @@ const Card: React.FC<Props> = ({ id, name, image, moves, weight, height, experie
 				className={styles.image}
 				src={image !== '' ? image : unknownPokemon}
 				alt={image !== '' ? name + ' ' + TEXTS.savedCards.card.image.alt.toLowerCase() : ''}
+				title={image !== '' ? TEXTS.savedCards.card.image.title : ''}
 			/>
 			<footer className={styles.footer}>
 				<ul>

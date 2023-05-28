@@ -6,6 +6,7 @@ export const COMMON = {
 
 	pokeball: {
 		alt: 'Red and white pokéball',
+		title: 'Pokéball',
 	},
 
 	footer: {

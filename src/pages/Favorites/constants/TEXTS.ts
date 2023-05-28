@@ -7,6 +7,7 @@ export const TEXTS = {
 		card: {
 			image: {
 				alt: 'Pokémon preview image',
+				title: 'Pokémon',
 			},
 
 			footer: {
