@@ -1,0 +1,15 @@
+.container {
+	@apply absolute
+        z-10
+        grid
+        h-full
+        w-full
+        place-content-center
+        overflow-hidden
+        px-5
+        opacity-25;
+}
+
+.container img {
+	@apply animate-fullRotate;
+}

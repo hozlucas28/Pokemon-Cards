@@ -1,0 +1,18 @@
+.container {
+	@apply z-20
+        m-5
+        flex
+        flex-wrap
+        justify-between
+        text-center
+        capitalize
+        text-primary-text
+        max-[475px]:flex-col;
+}
+
+.anchor {
+	@apply transition-opacity
+        duration-300
+        ease-out
+        hover:opacity-75;
+}

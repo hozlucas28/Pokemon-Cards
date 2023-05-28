@@ -1,0 +1,19 @@
+.container {
+	@apply z-20
+        m-5
+        text-center
+        text-primary-text;
+}
+
+.title {
+	@apply text-4xl
+        font-bold
+        capitalize;
+}
+
+.subtitle {
+	@apply text-base
+        font-semibold
+        normal-case
+        opacity-50;
+}
