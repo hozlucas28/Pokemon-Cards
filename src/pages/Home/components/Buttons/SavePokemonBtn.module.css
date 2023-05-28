@@ -1,0 +1,23 @@
+.btn {
+	@apply z-20
+        w-16
+        rounded-full
+        bg-secondary-background
+        px-5
+        py-2;
+}
+
+.btnEnabled {
+	@apply transition-all
+        duration-300
+        ease-out
+        hover:bg-secondary-background-emphasis
+        hover:ring-2
+        hover:ring-secondary-background
+        hover:ring-offset-2;
+}
+
+.btnDisabled {
+	@apply cursor-not-allowed
+        opacity-50;
+}

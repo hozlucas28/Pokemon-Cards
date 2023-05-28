@@ -1,0 +1,51 @@
+@import url('./Card.module.css');
+
+:root {
+	--bg-color: #a3a3a3;
+	--border-radius: 0.5rem;
+}
+
+.card .container {
+	@apply cursor-not-allowed
+        bg-[url('')]
+        hover:scale-100
+        hover:drop-shadow-none;
+}
+
+.container * {
+	@apply animate-pulse;
+}
+
+.header {
+	@apply h-6
+        w-full
+        justify-between;
+}
+
+.header > h3 {
+	@apply w-36
+        rounded-[var(--border-radius)]
+        bg-[var(--bg-color)];
+}
+
+.header > span {
+	@apply w-10
+        rounded-[var(--border-radius)]
+        bg-[var(--bg-color)];
+}
+
+.image {
+	@apply rounded-[var(--border-radius)]
+        border-none
+        p-0;
+}
+
+.footer > ul {
+	@apply gap-2;
+}
+
+.footer > ul li {
+	@apply h-6
+        rounded-[var(--border-radius)]
+        bg-[var(--bg-color)];
+}
