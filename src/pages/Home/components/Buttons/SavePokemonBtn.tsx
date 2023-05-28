@@ -1,5 +1,4 @@
 import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
 
 import { BookmarkIcon, BookmarkSlashIcon } from '@heroicons/react/24/solid'
 
@@ -50,17 +49,19 @@ const SavePokemonBtn: React.FC<Props> = ({ toggle, setToggle, pokemon, setPokemo
 			>
 				{status ? <BookmarkIcon /> : <BookmarkSlashIcon />}
 			</button>
-			<ToastContainer
-				position='bottom-right'
-				autoClose={2000}
-				hideProgressBar={false}
-				newestOnTop
-				closeOnClick
-				rtl={false}
-				pauseOnFocusLoss
-				draggable={false}
-				theme='light'
-			/>
+			<div style={{ position: 'absolute' }}>
+				<ToastContainer
+					position='bottom-right'
+					autoClose={2000}
+					hideProgressBar={false}
+					newestOnTop
+					closeOnClick
+					rtl={false}
+					pauseOnFocusLoss
+					draggable={false}
+					theme='light'
+				/>
+			</div>
 		</>
 	)
 }

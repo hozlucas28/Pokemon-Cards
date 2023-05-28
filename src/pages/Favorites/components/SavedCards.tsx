@@ -37,17 +37,19 @@ const SavedCards = () => {
 					</div>
 				</div>
 			)}
-			<ToastContainer
-				position='bottom-right'
-				autoClose={2000}
-				hideProgressBar={false}
-				newestOnTop
-				closeOnClick
-				rtl={false}
-				pauseOnFocusLoss
-				draggable={false}
-				theme='light'
-			/>
+			<div style={{ position: 'absolute' }}>
+				<ToastContainer
+					position='bottom-right'
+					autoClose={2000}
+					hideProgressBar={false}
+					newestOnTop
+					closeOnClick
+					rtl={false}
+					pauseOnFocusLoss
+					draggable={false}
+					theme='light'
+				/>
+			</div>
 		</div>
 	)
 }
