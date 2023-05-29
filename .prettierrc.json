@@ -21,9 +21,9 @@
 	"importOrderSortSpecifiers": true,
 	"importOrder": [
 		"^react(.*)",
+		"<THIRD_PARTY_MODULES>",
 		"routes/",
 		"pages/",
-		"<THIRD_PARTY_MODULES>",
 		"constants/",
 		"contexts/",
 		"hooks/",
@@ -34,7 +34,7 @@
 		"services/",
 		"utils/",
 		"tests/",
-		"static",
+		"static/",
 		".css",
 		"@/(.*)",
 		"^[./]"
