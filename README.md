@@ -89,16 +89,16 @@
             <a href="https://github.com/hozlucas28/Codo-Codo-React-Project-02-2023" target="_blank">Repository of a to-do lists project</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/React-Image-Search-Practice-2023" target="_blank">Repository of image search project</a>
+            <a href="https://github.com/hozlucas28/React-Image-Search-Practice-2023" target="_blank">Repository of an image search project</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/React-Interest-Calculator-Practice-2023" target="_blank">Repository of interest calculator project</a>
+            <a href="https://github.com/hozlucas28/React-Interest-Calculator-Practice-2023" target="_blank">Repository of an interest calculator project</a>
         </li>
         <li>
             <a href="https://github.com/hozlucas28/Codo-Codo-React-Project-01-2023" target="_blank">Repository of rock, paper, and scissors project</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/Codo-Codo-Front-end-Project-2022" target="_blank">Repository of'Codo a Codo' Front-end project</a>
+            <a href="https://github.com/hozlucas28/Codo-Codo-Front-end-Project-2022" target="_blank">Repository of 'Codo a Codo' Front-end project</a>
         </li>
         <li>
             <a href="https://github.com/hozlucas28/Codo-Codo-Back-end-Project-2022" target="_blank">Repository of 'Codo a Codo' Back-end project</a>
