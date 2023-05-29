@@ -3,6 +3,10 @@ export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		extend: {
+			width: {
+				46: '11.75rem',
+			},
+
 			colors: {
 				white: '#d4d4d4',
 				'white-emphasis': '#a8a29e',

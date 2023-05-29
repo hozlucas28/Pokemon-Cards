@@ -45,6 +45,7 @@ const SavePokemonBtn: React.FC<Props> = ({ toggle, setToggle, pokemon, setPokemo
 			<button
 				className={`${styles.btn} ${status ? styles.btnEnabled : styles.btnDisabled}`}
 				name={TEXTS.buttons.savePokemon.alt}
+				aria-label={TEXTS.buttons.savePokemon.alt}
 				onClick={status ? handleOnClick : () => ''}
 			>
 				{status ? <BookmarkIcon /> : <BookmarkSlashIcon />}

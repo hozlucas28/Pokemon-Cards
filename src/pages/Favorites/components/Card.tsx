@@ -73,6 +73,7 @@ const Card: React.FC<Props> = ({ id, name, image, moves, weight, height, experie
 			<button
 				className={styles.deleteBtn}
 				name={TEXTS.savedCards.card.deleteCard.alt}
+				aria-label={TEXTS.savedCards.card.deleteCard.alt}
 				onClick={handleOnClick}
 			>
 				<BookmarkSlashIcon />

@@ -43,6 +43,7 @@
 
 .image {
 	@apply h-56
+        w-full
         rounded
         border-4
         border-white-emphasis

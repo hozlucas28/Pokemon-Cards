@@ -21,6 +21,7 @@ const NewPokemonBtn: React.FC<Props> = ({ toggle, setToggle, pokemon, setPokemon
 	return (
 		<button
 			className={`${styles.btn} ${status ? styles.btnEnabled : styles.btnDisabled}`}
+			aria-label={status ? TEXTS.buttons.newPokemon.enabled : TEXTS.buttons.newPokemon.disabled}
 			onClick={status ? handleOnClick : () => ''}
 		>
 			{status ? TEXTS.buttons.newPokemon.enabled : TEXTS.buttons.newPokemon.disabled}
