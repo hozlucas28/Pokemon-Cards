@@ -1,7 +1,7 @@
 export const COMMON = {
 	header: {
 		title: "Pokémon's Cards",
-		subTitle: "( Generator of random pokémon's cards )",
+		subTitle: "Generator of random pokémon's cards",
 	},
 
 	pokeball: {
