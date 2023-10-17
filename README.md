@@ -18,7 +18,7 @@
 
 <p align="center">
     <a href="https://pokemon-cards-ochre.vercel.app/" target="_blank">
-        <img src="https://github.com/hozlucas28/Pokemon-Cards/assets/88015479/7a5721af-1556-4b80-974c-dd4450c3ab23" width="800">
+        <img src="./.github/preview.png" width="800">
     </a>
 </p>
 
