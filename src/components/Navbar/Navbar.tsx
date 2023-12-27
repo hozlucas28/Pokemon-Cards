@@ -13,11 +13,12 @@ const Navbar: React.FC<Props> = ({ navBarStyle, links }) => {
 			{links.map((link) => (
 				<Link
 					key={link.to}
-					className={link.style}
+					className={`group ${link.style}`}
 					to={link.to}
 					title={link.title}
 				>
 					{link.text}
+					{link.children}
 				</Link>
 			))}
 		</nav>

@@ -18,7 +18,8 @@
 }
 
 .navBarLink {
-	@apply z-20
+	@apply relative
+        z-20
         block
         rounded-full
         bg-tertiary-background
