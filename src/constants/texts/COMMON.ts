@@ -10,7 +10,7 @@ export const COMMON = {
 	},
 
 	footer: {
-		copyright: 'Copyright © 2023 Lucas Hoz',
+		copyright: 'Copyright © 2024 Lucas Hoz',
 		sourceCode: '[ View Source Code ]',
 	},
 }
