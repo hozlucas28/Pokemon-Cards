@@ -18,12 +18,14 @@
 
 <p align="center">
     <a href="https://pokemon-cards-ochre.vercel.app/" target="_blank">
-        <img src="./.github/preview.png" width="800">
-    </a>
+		<img src="./.github/preview.png" width="800">
+		<br />
+		Visit project
+	</a>
 </p>
 
 <p align="center">
-    <strong>(watch a <a href="https://pokemon-cards-ochre.vercel.app/" target="_blank">live test</a> or a <a href="https://www.youtube.com/watch?v=w4GR0nch1cg" target="_blank">video preview</a>)</strong>
+    <a href="https://www.youtube.com/watch?v=w4GR0nch1cg" target="_blank">(demonstration video)</a>
 </p>
 
 <h2>
